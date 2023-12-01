@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Activity 5 -Zambo, William Luther</string>
+    <string name="activity_5_zambo_william_luther">Activity 5 - Zambo, William Luther</string>
+    <string name="camera_permission">Camera Permission</string>
+    <string name="location_permission">Location Permission</string>
+    <string name="contacts_permission">Contacts Permission</string>
+    <string name="granted_permission">Granted Permission</string>
+    <string name="view_permissions">View Permissions</string>
+    <string name="back">Back</string>
+</resources>
