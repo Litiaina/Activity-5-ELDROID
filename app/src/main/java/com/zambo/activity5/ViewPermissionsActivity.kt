@@ -21,6 +21,10 @@ class ViewPermissionsActivity : AppCompatActivity() {
         if (checkPermission(Manifest.permission.READ_CONTACTS)) binding.contactsStatusTextView.text = "Contacts Permission Granted: YES" else binding.contactsStatusTextView.text = "Contacts Permission Granted: NO"
         if (checkPermission(Manifest.permission.CAMERA)) binding.cameraStatusTextView.text = "Camera Permission Granted: YES" else binding.cameraStatusTextView.text = "Camera Permission Granted: NO"
         if (checkPermission(Manifest.permission.ACCESS_FINE_LOCATION)) binding.locationStatusTextView.text = "Location Permission Granted: YES" else binding.locationStatusTextView.text = "Location Permission Granted: NO"
+
+        binding.backButton.setOnClickListener {
+            finish()
+        }
     }
 
     private fun checkPermission(permission: String): Boolean {
